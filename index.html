@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GSAP - ScrollTrigger</title>
+    <!-- bootstrap-->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/font-awesome/css/font-awesome.css"
+    />
+    <!-- own styles-->
+    <link rel="stylesheet" href="./src/css/index.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="bg"></div>
+      <nav class="navigation">
+        <div class="title">lookbook</div>
+
+        <div class="categories">
+          <ul>
+            <li>men</li>
+            <li>women</li>
+          </ul>
+        </div>
+
+        <div class="menu">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <div class="search">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+      </nav>
+      <!-- media -->
+      <div class="social-media">
+        <div class="social-icon">facebook</div>
+        <div class="social-icon">twitter</div>
+        <div class="social-icon">youtube</div>
+      </div>
+      <!-- images -->
+      <div class="image-wrapper-01">
+        <div class="image_01"></div>
+        <div class="block"></div>
+      </div>
+      <div class="image-wrapper-02">
+        <div class="image_02"></div>
+        <div class="block"></div>
+        <!-- up next -->
+        <div class="up-next">up-next</div>
+      </div>
+
+      <!-- center text-->
+      <div class="text">
+        <h1>The greatest escape</h1>
+        <p>Issue to out now</p>
+      </div>
+      <! -- description -->
+      <div class="description">
+        <ul>
+          <li>volume 01</li>
+          <li>volume 02</li>
+        </ul>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Necessitatibus nostrum consectetur voluptatibus laudantium nesciunt
+          accusantium nulla natus atque iste, quis qui rerum eveniet iusto quas!
+          Est explicabo provident maiores necessitatibus.
+        </p>
+      </div>
+      <!-- scroll down -->
+      <div class="scroll-down">scroll down</div>
+      <!-- bottom nav -->
+      <div class="bottom-nav">
+        <div class="nav">
+          <ul>
+            <li class="prev"><i class="fa fa-angle-up"></i></li>
+            <li class="next"><i class="fa fa-angle-down"></i></li>
+          </ul>
+        </div>
+        <div class="image-wrapper">
+          <div class="image-bottom-nav"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- gsap-->
+    <script src="./node_modules/gsap/dist/gsap.js"></script>
+    <script src="./node_modules/gsap/dist/ScrollTrigger.js"></script>
+    <!-- own scripts -->
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
